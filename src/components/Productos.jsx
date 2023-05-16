@@ -15,7 +15,7 @@ const Productos=()=>{
         >
             <img src={`${product.image}`} alt={product.name}/>
 
-            <h2>{product.name}</h2>
+            <h2><a href={`http://localhost:8000/living/${product.id}`}>{product.name}</a></h2>
             <h3>${product.price}</h3>
         </motion.div>
     ))

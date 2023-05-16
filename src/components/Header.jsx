@@ -55,12 +55,12 @@ function Header() {
           <div className="cart-btn">
 
             <span className="nav-icon">
-              <a>CARRITO</a>
+              <a href="http://localhost:8000">CARRITO</a>
 
             </span>
 
           </div>
-          <li className="cart-items">(0)</li>
+          <li className="cart-items"></li>
         </div>
 
         <li className="cart-items-responsive">0</li>

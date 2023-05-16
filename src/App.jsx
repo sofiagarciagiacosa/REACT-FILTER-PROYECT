@@ -1,6 +1,6 @@
-import { createContext, useEffect, useState } from "react"
-import ButtonFilters from "./components/buttonFilters"
-import Productos from "./components/Productos"
+import { createContext, useEffect, useState } from "react";
+import ButtonFilters from "./components/ButtonFilters";
+import Productos from "./components/Productos";
 import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -423,4 +423,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
